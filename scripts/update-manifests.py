@@ -39,7 +39,7 @@ def expected_manifests():
         skill = ROOT / 'skills' / name
         manifest = {
             'name': name,
-            'version': '1.1.0' if name == SKILLS[0] else '2.3.0',
+            'version': '1.1.1' if name == SKILLS[0] else '2.3.1',
             'bundle_version': '0.2.1',
             'platform_scope': '1C:Enterprise 8.3.27; Windows tested; macOS/Linux prepared, not tested',
             'files': inventory(skill, {'manifest.json'}),

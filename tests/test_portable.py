@@ -13,9 +13,12 @@ ROOT = Path(__file__).resolve().parents[1]
 NAMES = ('1c-add-new-object', '1c-configurator-batch-8-3-27')
 
 
-def run_python(script, *args):
+def run_python(script, *args, io_encoding=None):
+    env = dict(os.environ)
+    if io_encoding:
+        env["PYTHONIOENCODING"] = io_encoding
     return subprocess.run([sys.executable, '-B', str(script), *map(str, args)],
-                          capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=90)
+                          capture_output=True, text=True, encoding='utf-8', errors='replace', timeout=90, env=env)
 
 
 def snapshot(path):
@@ -29,9 +32,10 @@ class PortableTests(unittest.TestCase):
             project = Path(temp) / 'Проект с пробелами'
             project.mkdir()
             args = ('--client', 'both', '--scope', 'project', '--project-path', project)
-            result = run_python(ROOT / 'install.py', *args)
+            result = run_python(ROOT / 'install.py', *args, io_encoding='cp1252')
             self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
             self.assertIn('only on Windows', result.stdout)
+            self.assertIn(project.name, result.stdout)
             for client_root in ('.agents', '.claude'):
                 for name in NAMES:
                     installed = project / client_root / 'skills' / name
@@ -41,7 +45,7 @@ class PortableTests(unittest.TestCase):
                 checked = run_python(installed / name / 'scripts' / 'validate-skill.py')
                 self.assertEqual(checked.returncode, 0, checked.stdout + checked.stderr)
             before = snapshot(project)
-            repeated = run_python(ROOT / 'install.py', *args)
+            repeated = run_python(ROOT / 'install.py', *args, io_encoding='cp1252')
             self.assertEqual(repeated.returncode, 0, repeated.stdout + repeated.stderr)
             self.assertEqual(snapshot(project), before)
 
@@ -83,7 +87,7 @@ class PortableTests(unittest.TestCase):
 
     def test_python_search_covers_merge_and_invalid_regex(self):
         script = ROOT / 'skills' / NAMES[-1] / 'scripts' / 'search-docs.py'
-        result = run_python(script, 'ConfigurationsNotRelated')
+        result = run_python(script, 'ConfigurationsNotRelated', io_encoding='cp1252')
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
         self.assertIn('11-merge-cfg.md', result.stdout)
         invalid = run_python(script, '[', '--regex')

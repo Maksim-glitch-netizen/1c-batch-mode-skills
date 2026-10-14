@@ -1,6 +1,6 @@
 {
   "name": "1c-configurator-batch-8-3-27",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "bundle_version": "0.2.1",
   "platform_scope": "1C:Enterprise 8.3.27; Windows tested; macOS/Linux prepared, not tested",
   "files": {
@@ -65,8 +65,8 @@
       "sha256": "01344ab80c34a9f7e0d58aca8b62d854750d558da61d7c143fae743c81aa237f"
     },
     "scripts/search-docs.py": {
-      "bytes": 1366,
-      "sha256": "b265d532ac71129f8a5ea3279099f6e3a9b1e0feee9e1e49f79dcfd70fbcd95e"
+      "bytes": 1617,
+      "sha256": "8fd2e0f9836bd80bd0046fe55d2eb938f6f216cf7b70ff5462d3abc44ff527ef"
     },
     "scripts/validate-skill.ps1": {
       "bytes": 8201,

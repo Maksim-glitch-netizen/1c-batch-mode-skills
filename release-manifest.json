@@ -26,8 +26,8 @@
       "sha256": "fbce4d7225631df7883b8f208e430ffaedaad9998f2aee0972016548a9cd722f"
     },
     "CHANGELOG.md": {
-      "bytes": 1878,
-      "sha256": "6480c1d591c70ad6202730825a38f7d19ebde1daca66d939f35d6884076c2a7a"
+      "bytes": 2013,
+      "sha256": "947a32341bc0c12659fc4ebf114d2a6c48df4ceee2694c20b9f9d69bd972e918"
     },
     "CLAUDE.md": {
       "bytes": 112,
@@ -62,8 +62,8 @@
       "sha256": "17702e0626bfa34ed5d90556c3a7d73b15ae55c0cbb40fcd2975a18aa820906c"
     },
     "docs/validation.md": {
-      "bytes": 3550,
-      "sha256": "0d7f611fb9ea5677b57ad414051447a235329cc565d4cf8301846880b89118a4"
+      "bytes": 3727,
+      "sha256": "6702e43ba50cbd4504b2bc61268e5bdd3f07b282af5e09c5101014f8d658a299"
     },
     "install-linux.sh": {
       "bytes": 282,
@@ -78,8 +78,8 @@
       "sha256": "77f15fb3de7bf70b9d7d24f778a3d7e85be6fb2695fb769f21e13214291ac3aa"
     },
     "install.py": {
-      "bytes": 5511,
-      "sha256": "19fb12b1057d448773627e895b29f9239442c3f60ffa0e7822629727e5acc4f8"
+      "bytes": 5762,
+      "sha256": "c9156b15ee2244852392c472dc65d51280dc819c8c3833c44a2ba05f0b81ff44"
     },
     "LICENSE": {
       "bytes": 1085,
@@ -99,7 +99,7 @@
     },
     "scripts/update-manifests.py": {
       "bytes": 2959,
-      "sha256": "0b452c8467419a2ca16cb2ba4d6f9f264602267d9a7342337cfc6b4c9eb5dfdd"
+      "sha256": "ca6daf09b77182603b85e542eb0b484cd8f8d4dcb326373ac4178c947406a6a9"
     },
     "scripts/validate-package.py": {
       "bytes": 5802,
@@ -119,7 +119,7 @@
     },
     "skills/1c-add-new-object/manifest.json": {
       "bytes": 1778,
-      "sha256": "12ac17ddbd2987fa45ae3822d82933100f7e061e17aa7ae594fe5f3ca1b24fbb"
+      "sha256": "9fd119842fda4f1c176b71b0e75571b755b9352d59bcecd2b645aba0018ccbb3"
     },
     "skills/1c-add-new-object/references/donor-commands.md": {
       "bytes": 4683,
@@ -142,8 +142,8 @@
       "sha256": "bc9e97d05bcd928896249be9b887ff0006a3a629ab16e3c752effaaa212e3d84"
     },
     "skills/1c-add-new-object/scripts/new_object_workflow.py": {
-      "bytes": 18155,
-      "sha256": "df3b81c631121d594d0821df4127ac8c326294b9899722f7bda6fe616650fcb4"
+      "bytes": 18406,
+      "sha256": "625feeed13b8e0470a6adad0a7df8e4b04cdc5491a2fa26f5fa638c9bc9acdfd"
     },
     "skills/1c-add-new-object/scripts/validate-skill.ps1": {
       "bytes": 3132,
@@ -167,7 +167,7 @@
     },
     "skills/1c-configurator-batch-8-3-27/manifest.json": {
       "bytes": 3118,
-      "sha256": "f14fd94b4afde000b621d87e1559180c43f082d25a16e9dc420bf455fdbd2185"
+      "sha256": "31e2a28deb8ccabbc393ccb21fa9cf7359cdf257353ef7714120620397fb896f"
     },
     "skills/1c-configurator-batch-8-3-27/references/00-index.md": {
       "bytes": 2478,
@@ -226,8 +226,8 @@
       "sha256": "01344ab80c34a9f7e0d58aca8b62d854750d558da61d7c143fae743c81aa237f"
     },
     "skills/1c-configurator-batch-8-3-27/scripts/search-docs.py": {
-      "bytes": 1366,
-      "sha256": "b265d532ac71129f8a5ea3279099f6e3a9b1e0feee9e1e49f79dcfd70fbcd95e"
+      "bytes": 1617,
+      "sha256": "8fd2e0f9836bd80bd0046fe55d2eb938f6f216cf7b70ff5462d3abc44ff527ef"
     },
     "skills/1c-configurator-batch-8-3-27/scripts/validate-skill.ps1": {
       "bytes": 8201,
@@ -246,8 +246,8 @@
       "sha256": "fe4cc50f775c03334e014e2eae692a9dc5ceb0d2f89a8231bbfc893f0195bb66"
     },
     "tests/test_portable.py": {
-      "bytes": 7913,
-      "sha256": "112b2a1f72e0fae911b123974e8341a93f86a88ced7684868571701c1da4a61c"
+      "bytes": 8154,
+      "sha256": "d3c11f31d6be7a8b19578bce1a64751dd1c416dc94b520cfbe91c30e15ea3329"
     },
     "tests/test_publication.py": {
       "bytes": 6047,

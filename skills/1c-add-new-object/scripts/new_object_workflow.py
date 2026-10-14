@@ -477,4 +477,8 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    # CLI output stays UTF-8 when Windows redirects streams through a legacy code page.
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, 'reconfigure'):
+            stream.reconfigure(encoding='utf-8', errors='backslashreplace')
     raise SystemExit(main())

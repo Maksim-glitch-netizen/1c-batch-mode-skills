@@ -1,6 +1,6 @@
 {
   "name": "1c-add-new-object",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "bundle_version": "0.2.1",
   "platform_scope": "1C:Enterprise 8.3.27; Windows tested; macOS/Linux prepared, not tested",
   "files": {
@@ -29,8 +29,8 @@
       "sha256": "bc9e97d05bcd928896249be9b887ff0006a3a629ab16e3c752effaaa212e3d84"
     },
     "scripts/new_object_workflow.py": {
-      "bytes": 18155,
-      "sha256": "df3b81c631121d594d0821df4127ac8c326294b9899722f7bda6fe616650fcb4"
+      "bytes": 18406,
+      "sha256": "625feeed13b8e0470a6adad0a7df8e4b04cdc5491a2fa26f5fa638c9bc9acdfd"
     },
     "scripts/validate-skill.ps1": {
       "bytes": 3132,

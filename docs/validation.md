@@ -22,7 +22,7 @@ GitHub Actions повторяет их на Windows с PowerShell 5.1 и PowerSh
 `scripts/validate.py`, Python-установщик, поиск и Python-валидаторы фактически запускались только
 на Windows. Проверка синтаксиса shell-установщиков через Git Bash на Windows, если выполнена,
 не является тестом Linux или macOS. Профили ОС и адаптированные шаблоны Designer не подтверждают
-живой запуск 1С на этих ОС. CI остаётся только windows-latest и в этой сессии не запускался.
+живой запуск 1С на этих ОС. CI runs only on windows-latest; run results are available in the repository Actions tab.
 Машиночитаемый статус находится в [platforms.json](../platforms.json).
 
 ## Историческое свидетельство
@@ -35,3 +35,6 @@ GitHub Actions повторяет их на Windows с PowerShell 5.1 и PowerSh
 Полный цикл на пользовательской 1С и выполнение через установленные Codex/Claude Code должны
 проверяться отдельно в тестовой базе. Тесты установки подтверждают расположение и целостность
 файлов, а не поведение модели. Справочники сохраняют исторические даты сверки официальных источников.
+
+Python CLI output is UTF-8, including redirected streams. Regression checks force cp1252 for
+installation into Cyrillic paths and documentation search. All actual tests remain Windows only.
