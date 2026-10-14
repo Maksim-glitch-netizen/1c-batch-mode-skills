@@ -3,6 +3,7 @@
 ## 0.2.1 - 2026-10-14
 
 - Исправлен GitHub Actions: явные шаги PowerShell 5.1 и 7 вместо неподдержанного выражения matrix.shell.
+- Fixed the baseline-file assertion for Windows TEMP paths exposed through 8.3 aliases.
 - Обновлены метаданные комплекта и архивы; алгоритмы обоих навыков сохранены.
 - Все фактические тесты выполнены только на Windows; macOS/Linux на своих ОС не тестировались.
 

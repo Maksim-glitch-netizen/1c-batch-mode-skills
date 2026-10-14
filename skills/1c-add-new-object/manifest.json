@@ -45,8 +45,8 @@
       "sha256": "66ef411c6c51209418e99eb05b84068a00feda4e2938777e80527fd7dbab06d6"
     },
     "tests/test_new_object_workflow.py": {
-      "bytes": 11897,
-      "sha256": "697da03028e863819c92321aa5ee44c71a7e64e347a05c587c02adb6283b38ac"
+      "bytes": 12013,
+      "sha256": "dd087bc672fcc442518302560e455bc87c317629ded05623340fe419d9d16043"
     }
   }
 }

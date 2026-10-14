@@ -72,9 +72,11 @@ class WorkflowTests(unittest.TestCase):
                 ["AccumulationRegister.Demo_Test"],
             )
             manifest = json.loads((workspace / "manifest.json").read_text(encoding="utf-8"))
-            self.assertEqual(
-                Path(manifest["baselineConfiguration"]),
-                workspace / "baseline" / "Configuration.xml",
+            # Windows runners may expose the same TEMP directory through an 8.3 alias.
+            self.assertTrue(
+                Path(manifest["baselineConfiguration"]).samefile(
+                    workspace / "baseline" / "Configuration.xml"
+                )
             )
             self.assertTrue((workspace / "baseline" / "Configuration.xml").is_file())
             self.assertEqual(
