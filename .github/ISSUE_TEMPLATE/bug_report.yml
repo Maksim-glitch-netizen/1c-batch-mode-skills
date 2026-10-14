@@ -1,0 +1,78 @@
+name: Ошибка / Bug report
+description: Сообщить об ошибке навыка, установщика или документации.
+title: '[Bug]: '
+labels: ['bug']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Фактические тесты выпуска 0.2.0 выполнены только на Windows. macOS/Linux подготовлены, но на этих ОС не тестировались.
+        Actual tests were performed only on Windows. macOS/Linux variants have not been tested on their target OS.
+        Remove passwords, tokens, private paths and business data from examples and logs.
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Навык / Skill
+      options:
+        - 1c-add-new-object
+        - 1c-configurator-batch-8-3-27
+        - Установка или общий комплект / Installer or bundle
+    validations:
+      required: true
+  - type: input
+    id: bundle-version
+    attributes:
+      label: Версия комплекта или commit / Bundle version or commit
+      placeholder: '0.2.0'
+    validations:
+      required: true
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Операционная система / Operating system
+      options:
+        - Windows
+        - macOS (not tested by the project)
+        - Linux (not tested by the project)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: client
+    attributes:
+      label: Клиент / Client
+      options:
+        - Codex
+        - Claude Code
+        - Standalone script
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: versions
+    attributes:
+      label: Версии окружения / Environment versions
+      description: Укажите версию ОС, клиента, Python/PowerShell и 1С, если они относятся к ошибке.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Шаги воспроизведения / Steps to reproduce
+      description: Минимальный пример без реальных учётных данных и бизнес-данных.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: Ожидаемый и фактический результат / Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Обезличенный фрагмент журнала / Redacted log excerpt
+      description: Добавьте только относящиеся к ошибке строки, предварительно убрав секреты.
+      render: text
+    validations:
+      required: false

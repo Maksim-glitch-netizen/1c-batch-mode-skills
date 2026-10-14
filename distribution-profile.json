@@ -1,0 +1,4 @@
+{
+  "target_os": "universal",
+  "test_evidence": "windows_only"
+}

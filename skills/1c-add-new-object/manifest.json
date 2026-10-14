@@ -1,0 +1,52 @@
+{
+  "name": "1c-add-new-object",
+  "version": "1.1.0",
+  "bundle_version": "0.2.0",
+  "platform_scope": "1C:Enterprise 8.3.27; Windows tested; macOS/Linux prepared, not tested",
+  "files": {
+    "LICENSE": {
+      "bytes": 1085,
+      "sha256": "e5f676caed88c8dca9bb1fbd35f5ca85074a04aa8a93af320c42ffc84fd02df4"
+    },
+    "references/donor-commands.md": {
+      "bytes": 4683,
+      "sha256": "9144a949a7c6bb7e4dc4aaa5114d3c066c97769aa897901751e1fd953d76070b"
+    },
+    "references/environment.md": {
+      "bytes": 5203,
+      "sha256": "04cced6f539720c7b7d711829a1642465f80b42f1e4263fec39a09c594306b77"
+    },
+    "references/platforms.md": {
+      "bytes": 3070,
+      "sha256": "0595f8e1ce0fa669738e865105a05b8e93fce7f227a0dcd2cd5c53439b280823"
+    },
+    "references/tooling.md": {
+      "bytes": 4136,
+      "sha256": "a82a90d4a0fa4c5b6a2670f6c2dcbc2497401fb80693f368273c40b98bb489c6"
+    },
+    "references/workflow.md": {
+      "bytes": 11450,
+      "sha256": "bc9e97d05bcd928896249be9b887ff0006a3a629ab16e3c752effaaa212e3d84"
+    },
+    "scripts/new_object_workflow.py": {
+      "bytes": 18155,
+      "sha256": "df3b81c631121d594d0821df4127ac8c326294b9899722f7bda6fe616650fcb4"
+    },
+    "scripts/validate-skill.ps1": {
+      "bytes": 3132,
+      "sha256": "491093ba9879c0514082feff530fda8373948183c4846911bacab987471d6125"
+    },
+    "scripts/validate-skill.py": {
+      "bytes": 4308,
+      "sha256": "d76ed0d5e919745fd9ff90d752f4b3943776c2f55aa86cd10721ad2ddc364cf4"
+    },
+    "SKILL.md": {
+      "bytes": 9564,
+      "sha256": "66ef411c6c51209418e99eb05b84068a00feda4e2938777e80527fd7dbab06d6"
+    },
+    "tests/test_new_object_workflow.py": {
+      "bytes": 11897,
+      "sha256": "697da03028e863819c92321aa5ee44c71a7e64e347a05c587c02adb6283b38ac"
+    }
+  }
+}

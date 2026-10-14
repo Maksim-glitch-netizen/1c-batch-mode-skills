@@ -1,0 +1,88 @@
+{
+  "name": "1c-configurator-batch-8-3-27",
+  "version": "2.3.0",
+  "bundle_version": "0.2.0",
+  "platform_scope": "1C:Enterprise 8.3.27; Windows tested; macOS/Linux prepared, not tested",
+  "files": {
+    "LICENSE": {
+      "bytes": 1085,
+      "sha256": "e5f676caed88c8dca9bb1fbd35f5ca85074a04aa8a93af320c42ffc84fd02df4"
+    },
+    "references/00-index.md": {
+      "bytes": 2478,
+      "sha256": "8780f2a5e5dfc0b3a364eabbd3f2a70cc23f2f722165c53466d0ef8053c80b57"
+    },
+    "references/01-common-cli.md": {
+      "bytes": 4525,
+      "sha256": "4c851f5d83d51f9d6efa0c131082865896b5467a157ba08ddf2b0ebf83e12288"
+    },
+    "references/02-xml-dump.md": {
+      "bytes": 5974,
+      "sha256": "fd927a870535bd0eab8629bf0ef95965d1b018a18c88f5e358d5a49656c5e9b4"
+    },
+    "references/03-xml-load.md": {
+      "bytes": 4502,
+      "sha256": "fe5d429589485248ee89adf2eca1511bc0b4b0fd44fbbe1368eac4b02b0491ec"
+    },
+    "references/04-repository-read-bind.md": {
+      "bytes": 4726,
+      "sha256": "4938fcc368b30d6eebd9251ff49f5d22df7aa530262e2a88c7cf083ea8cc2f1b"
+    },
+    "references/05-repository-write.md": {
+      "bytes": 3535,
+      "sha256": "7ce9db35dd6d3e6df5c304b181276e6a09571085a490ffd7e9c82226e0ca17f7"
+    },
+    "references/06-update-db-cfg.md": {
+      "bytes": 4302,
+      "sha256": "eff5c24bc89f5d90cdc3fc0dfcf3d6637548ff529f69ae17881d5a181deb166f"
+    },
+    "references/07-checks.md": {
+      "bytes": 2203,
+      "sha256": "90ba66303c2f2ecd0a1279329fc872e1995eb9467b51bd1013e3bbc3376eaa52"
+    },
+    "references/08-results-errors.md": {
+      "bytes": 5028,
+      "sha256": "ed30af3f3b781bf24727c6e2a6670f1b60deecfc94cfb38086d81103f07c0e75"
+    },
+    "references/09-workflows.md": {
+      "bytes": 4773,
+      "sha256": "9afef30ccdb7e941451c99f18e0f4ffd1b0a75480585b087fb60897ef1f6c9ae"
+    },
+    "references/10-source-register.md": {
+      "bytes": 6942,
+      "sha256": "fca341a23fafcec037f7df06566c8202519383b4ae9ecdcf2e1962ba3e6b49c6"
+    },
+    "references/11-merge-cfg.md": {
+      "bytes": 6418,
+      "sha256": "4d84ef09745aeccf60a9a148684d9456359704b5571a959d8767fd95740a4be0"
+    },
+    "references/platforms.md": {
+      "bytes": 4759,
+      "sha256": "c95110aae253d29be045db1e0425e7225764065b3359c3d32da059363a9512b9"
+    },
+    "scripts/search-docs.ps1": {
+      "bytes": 1484,
+      "sha256": "01344ab80c34a9f7e0d58aca8b62d854750d558da61d7c143fae743c81aa237f"
+    },
+    "scripts/search-docs.py": {
+      "bytes": 1366,
+      "sha256": "b265d532ac71129f8a5ea3279099f6e3a9b1e0feee9e1e49f79dcfd70fbcd95e"
+    },
+    "scripts/validate-skill.ps1": {
+      "bytes": 8201,
+      "sha256": "41a45d1b24922f2def9ec542e60b158de41a2088ee311d9c867f8d79c9b07d43"
+    },
+    "scripts/validate-skill.py": {
+      "bytes": 4308,
+      "sha256": "d76ed0d5e919745fd9ff90d752f4b3943776c2f55aa86cd10721ad2ddc364cf4"
+    },
+    "SKILL.md": {
+      "bytes": 10558,
+      "sha256": "7dbd190b798894af77d69e188c9a19ed8f77339fe71eea1749b6c9d1af7d155a"
+    },
+    "tests/test-cases.md": {
+      "bytes": 2615,
+      "sha256": "fe4cc50f775c03334e014e2eae692a9dc5ceb0d2f89a8231bbfc893f0195bb66"
+    }
+  }
+}

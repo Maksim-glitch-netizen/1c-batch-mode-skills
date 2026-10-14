@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "tested_operating_systems": [
+    "windows"
+  ],
+  "variants": {
+    "windows": {
+      "status": "tested_on_windows",
+      "entrypoint": "install.ps1"
+    },
+    "macos": {
+      "status": "prepared_not_tested",
+      "entrypoint": "install-macos.sh"
+    },
+    "linux": {
+      "status": "prepared_not_tested",
+      "entrypoint": "install-linux.sh"
+    }
+  },
+  "designer_executed_for_this_release": false
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "bundled": [
+    "1c-add-new-object",
+    "1c-configurator-batch-8-3-27"
+  ],
+  "external": {
+    "source": "https://github.com/Nikolay-Shirokov/cc-1c-skills",
+    "skills": [
+      "cf-init",
+      "meta-compile",
+      "meta-validate",
+      "cf-validate",
+      "db-create"
+    ],
+    "variant": "PowerShell on Windows; Python on macOS/Linux (not integration-tested)",
+    "interface_reviewed": "2026.9.25+317dce6",
+    "runtime_tested_in_this_release": false
+  }
+}
