@@ -1,7 +1,7 @@
 {
   "name": "1c-add-new-object",
   "version": "1.1.0",
-  "bundle_version": "0.2.0",
+  "bundle_version": "0.2.1",
   "platform_scope": "1C:Enterprise 8.3.27; Windows tested; macOS/Linux prepared, not tested",
   "files": {
     "LICENSE": {

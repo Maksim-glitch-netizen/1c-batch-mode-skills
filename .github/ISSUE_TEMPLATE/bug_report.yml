@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Фактические тесты выпуска 0.2.0 выполнены только на Windows. macOS/Linux подготовлены, но на этих ОС не тестировались.
+        Фактические тесты выпуска 0.2.1 выполнены только на Windows. macOS/Linux подготовлены, но на этих ОС не тестировались.
         Actual tests were performed only on Windows. macOS/Linux variants have not been tested on their target OS.
         Remove passwords, tokens, private paths and business data from examples and logs.
   - type: dropdown
@@ -23,7 +23,7 @@ body:
     id: bundle-version
     attributes:
       label: Версия комплекта или commit / Bundle version or commit
-      placeholder: '0.2.0'
+      placeholder: '0.2.1'
     validations:
       required: true
   - type: dropdown

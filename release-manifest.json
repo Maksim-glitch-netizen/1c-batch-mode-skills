@@ -1,5 +1,5 @@
 {
-  "bundleVersion": "0.2.0",
+  "bundleVersion": "0.2.1",
   "files": {
     ".gitattributes": {
       "bytes": 108,
@@ -7,15 +7,15 @@
     },
     ".github/ISSUE_TEMPLATE/bug_report.yml": {
       "bytes": 2838,
-      "sha256": "68677a454d37499335c034a7de6ed90861b3ca68b368ecff50b561a015c6722d"
+      "sha256": "2cacd96aa4955ad0b7207454a694ad4f5ea757d835bcbb22f37a0f7e1e73a63f"
     },
     ".github/ISSUE_TEMPLATE/config.yml": {
       "bytes": 27,
       "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
     },
     ".github/workflows/validate.yml": {
-      "bytes": 635,
-      "sha256": "26373f30eff3efbdc54b805e61b0950a53c272f114fee5a1bcec816ee336e700"
+      "bytes": 623,
+      "sha256": "9be4bcd2281f8c327b49eb380101313457d85e16fc4fb83b271c3494269d1bc0"
     },
     ".gitignore": {
       "bytes": 172,
@@ -23,11 +23,11 @@
     },
     "AGENTS.md": {
       "bytes": 1537,
-      "sha256": "21259849a8ef9f78bcbb8876f248eeb08d3ec66268c93be4431322f6e9f2dcfc"
+      "sha256": "fbce4d7225631df7883b8f208e430ffaedaad9998f2aee0972016548a9cd722f"
     },
     "CHANGELOG.md": {
-      "bytes": 1314,
-      "sha256": "4a2075ea73ad8d2ef11529f983d2d729b60bc330bd0329a46b29df82d85e5c9f"
+      "bytes": 1790,
+      "sha256": "d45d2647f62bf89eba6d1a8c6dc20438622e16aa2fbdde1ba5424b23a6d4bbd3"
     },
     "CLAUDE.md": {
       "bytes": 112,
@@ -59,7 +59,7 @@
     },
     "docs/publishing.md": {
       "bytes": 2386,
-      "sha256": "6bf41711d3c19b40d304d609777502e33e524e6fc51bf056ad687117017e7ee1"
+      "sha256": "17702e0626bfa34ed5d90556c3a7d73b15ae55c0cbb40fcd2975a18aa820906c"
     },
     "docs/validation.md": {
       "bytes": 3550,
@@ -99,7 +99,7 @@
     },
     "scripts/update-manifests.py": {
       "bytes": 2959,
-      "sha256": "3b9590ed43968678db0c4131bc861fbf611de2b058727502d237a9bf2ec5d53e"
+      "sha256": "0b452c8467419a2ca16cb2ba4d6f9f264602267d9a7342337cfc6b4c9eb5dfdd"
     },
     "scripts/validate-package.py": {
       "bytes": 5802,
@@ -119,7 +119,7 @@
     },
     "skills/1c-add-new-object/manifest.json": {
       "bytes": 1778,
-      "sha256": "8c3b00ae5adf9369ed121d9e83f8dcc5cb3110503c5677a413f20f7142d8f6f6"
+      "sha256": "42356d06a2c84b77546ef14ab2a4111283d469182dc1d2a51c9e287826bb6024"
     },
     "skills/1c-add-new-object/references/donor-commands.md": {
       "bytes": 4683,
@@ -167,7 +167,7 @@
     },
     "skills/1c-configurator-batch-8-3-27/manifest.json": {
       "bytes": 3118,
-      "sha256": "a42447b7acf2fd23bab4b1b547d6628028fbc52ad9480dfa5eaeae70cd0fb7ca"
+      "sha256": "f14fd94b4afde000b621d87e1559180c43f082d25a16e9dc420bf455fdbd2185"
     },
     "skills/1c-configurator-batch-8-3-27/references/00-index.md": {
       "bytes": 2478,

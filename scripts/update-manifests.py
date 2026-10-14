@@ -40,7 +40,7 @@ def expected_manifests():
         manifest = {
             'name': name,
             'version': '1.1.0' if name == SKILLS[0] else '2.3.0',
-            'bundle_version': '0.2.0',
+            'bundle_version': '0.2.1',
             'platform_scope': '1C:Enterprise 8.3.27; Windows tested; macOS/Linux prepared, not tested',
             'files': inventory(skill, {'manifest.json'}),
         }
@@ -58,7 +58,7 @@ def main():
     if args.write:
         for path, manifest in pending:
             path.write_text(serialized(manifest), encoding='utf-8', newline='\n')
-        release = {'bundleVersion': '0.2.0', 'files': inventory(ROOT, {'release-manifest.json'})}
+        release = {'bundleVersion': '0.2.1', 'files': inventory(ROOT, {'release-manifest.json'})}
         (ROOT / 'release-manifest.json').write_text(serialized(release), encoding='utf-8', newline='\n')
         print('Updated skill manifests and release-manifest.json')
         return 0
@@ -66,7 +66,7 @@ def main():
     for path, expected in pending:
         if not path.is_file() or path.read_text(encoding='utf-8') != serialized(expected):
             errors.append(str(path.relative_to(ROOT)))
-    release = {'bundleVersion': '0.2.0', 'files': inventory(ROOT, {'release-manifest.json'})}
+    release = {'bundleVersion': '0.2.1', 'files': inventory(ROOT, {'release-manifest.json'})}
     path = ROOT / 'release-manifest.json'
     if not path.is_file() or path.read_text(encoding='utf-8') != serialized(release):
         errors.append('release-manifest.json')

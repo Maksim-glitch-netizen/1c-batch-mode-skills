@@ -19,10 +19,10 @@ Git пользователи клонируют репозиторий и зап
 Для архивного релиза используй `git archive` от проверенного коммита. Файл LICENSE должен входить
 в репозиторий и архив. Название и адрес удалённого репозитория выбирает владелец.
 
-## Платформенные архивы 0.2.0
+## Платформенные архивы 0.2.1
 
 ```bash
-python3 -B scripts/build-releases.py --output-dir ../releases-0.2.0
+python3 -B scripts/build-releases.py --output-dir ../releases-0.2.1
 ```
 
 На Windows используй python вместо python3. Команда создаёт Windows ZIP и отдельные macOS/Linux
